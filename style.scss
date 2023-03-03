@@ -1,0 +1,45 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+
+h1{
+    color: red;
+}
+
+#fondo {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+  }
+  .fondo1 {
+    background-image: url(../img/fondo1.svg);
+  }
+  .fondo2 {
+    background-image: url(../img/fondo2.svg);
+  }
+  .fondo3 {
+    background-image: url(../img/fondo3.svg);
+  }
+  .fondo3 {
+    background-image: url(../img/fondo3.svg);
+  }
+  .fondo4 {
+    background-image: url(../img/fondo4.svg);
+  }
+  .fondo5 {
+    background-image: url(../img/fondo5.svg);
+  }
+  .fondo6 {
+    background-image: url(../img/fondo6.svg);
+  }
+  .fondo7 {
+    background-image: url(../img/fondo7.svg);
+  }
+  .fondocontainer {
+    height: 100%;
+  }
+  .fondocontainer .row {
+    height: 100%;
+  }
+  .fondocontainer .row .col {
+    height: 100%;
+  }

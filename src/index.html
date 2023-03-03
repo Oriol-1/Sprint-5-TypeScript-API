@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acudit</title>
+    <link rel="stylesheet" href="../css/style.min.css">
+    
+</head>
+
+
+<body class="p-3">
+    <nav class="navbar sticky-top justify-content-start p-3">
+       
+          <span class="navbar-brand mb-0 h1" id="city" >Barcelona</span>
+          <img class="m-1" id="icono-animado" height="128px" width="128px">
+
+          <h3 class="m-1" id="temp">temperatura</h3>
+     
+      </nav>
+      <!-- chiste -->
+ <div class="container border">
+    <div class="row">
+ <div class="d-flex justify-content-center align-items-center text-center fondo1" id ="fondo" style="height:600px ">
+    
+        <div class="col-12" >
+            <h1>Preparat per ruire?</h1>
+            <br>
+           <h3> <strong> <div id="joke" class="joke">
+                // joke goes here
+            </div></strong></h3>
+            <br>
+            <div>
+                <button class="btn btn-outline-light bg-white text-primary  mx-2" type="button " onclick="scoreJokes(1)">Score: 1</button>
+                <button class="btn btn-outline-light bg-white text-primary  mx-2" type="button" onclick="scoreJokes(2)">Score: 2</button>
+                <button class="btn btn-outline-light bg-white text-primary mx-2" type="button" onclick="scoreJokes(3)">Score: 3</button>
+            </div>
+            <button class="btn btn-primary btn-lg m-auto my-4 col-auto botOri" id="geTjoke" type="button" onclick="fondo()">Següent acudit</button>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
